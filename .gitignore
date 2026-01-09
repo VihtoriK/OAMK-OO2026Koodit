@@ -53,3 +53,7 @@ build/
 # Qt Creator user files
 *.user
 *.user.* 
+
+# vscode files
+.vscode
+**/.vscode/
