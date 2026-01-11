@@ -19,7 +19,7 @@ int main(void) {
 
     int italianChef_amountOfSaladItems = 9;
     cout << "Chef " << italianChef.getName() << " with " << italianChef_amountOfSaladItems << " items can make salad " << italianChef.makeSalad(italianChef_amountOfSaladItems) << " portions" << endl;
-    
+
     italianChef.askSecret("pizza", 12, 12);
 
     return 0;

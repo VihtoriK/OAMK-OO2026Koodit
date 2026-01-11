@@ -40,11 +40,11 @@ void Game::play() {
         std::cin >> this->playerGuess;
 
         if(this->playerGuess > this->randomNumber) {
-            std::cout << "Your guess is too big" << std::endl;  
-        } 
+            std::cout << "Your guess is too big" << std::endl;
+        }
         else if(this->playerGuess < this->randomNumber) {
             std::cout << "Your guess is too small" << std::endl;
-        } 
+        }
         else {
             std::cout << "Your guess is right = "<< this->playerGuess << std::endl;
             break;

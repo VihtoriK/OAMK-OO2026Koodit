@@ -29,16 +29,15 @@ int game(int maxnum) {
     do {
 
         round_count++;
-
         std::cout << "Anna arvauksesi (0-19 valilta): ";
         std::cin >> guessed_num;
 
         if(guessed_num > random_num) {
-            std::cout << "liian suuri" << std::endl;  
-        } 
+            std::cout << "liian suuri" << std::endl;
+        }
         else if(guessed_num < random_num) {
             std::cout << "liian pieni" << std::endl;
-        } 
+        }
         else {
             std::cout << "oikein" << std::endl;
             break;
@@ -54,7 +53,7 @@ int main(void) {
     int round_count = 0;
 
     round_count = game(20);
-    
+
     std::cout << round_count << std::endl;
 
     return 0;
